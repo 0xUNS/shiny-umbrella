@@ -1,13 +1,10 @@
-# New line 3196
 # Import necessary modules
 import random
 import string
 
-# Define a function to generate a random string
 def generate_random_string(length):
     letters = string.ascii_lowercase
     return ''.join(random.choice(letters) for i in range(length))
-# New line 9031
 
 # Generate a list of 10 random strings
 random_strings = [generate_random_string(10) for _ in range(10)]
@@ -44,6 +41,7 @@ multiplication = calc.multiply()
 division = calc.divide()
 
 # Print the results
+print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
@@ -63,6 +61,7 @@ try:
     # Attempt to divide by zero
     result = 1 / 0
 except ZeroDivisionError:
+    print("Error: Division by zero is not allowed.")
 
 # Use a while loop to count up to 100
 count = 0
@@ -109,6 +108,7 @@ class SimpleCalculator:
 
     def divide(self):
         return self.a / self.b
+
 # Create an instance of the SimpleCalculator class
 calc = SimpleCalculator(10, 5)
 
@@ -117,6 +117,7 @@ addition = calc.add()
 subtraction = calc.subtract()
 multiplication = calc.multiply()
 division = calc.divide()
+
 # Print the results
 print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
@@ -132,6 +133,7 @@ factorial = math.factorial(5)
 print(f"\nSquare root of 16: {square_root}")
 print(f"2 raised to the power of 3: {power}")
 print(f"Factorial of 5: {factorial}")
+
 # Define a constant
 MY_CONSTANT = 3.14159
 
@@ -150,6 +152,7 @@ except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
 
 # Use a while loop to count up to 100
+count = 0
 while count < 100:
     print(count)
     count += 1
@@ -184,7 +187,6 @@ class BankAccount:
 
 # Create an instance of the BankAccount class
 account = BankAccount(1000)
-# New line 1906
 
 # Make a deposit
 deposit_amount = account.deposit(500)
