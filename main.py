@@ -153,6 +153,7 @@ try:
 except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
 
+# New line 5709
 # Use a while loop to count up to 100
 count = 0
 while count < 100:
