@@ -97,6 +97,7 @@ for i, rs in enumerate(random_strings, start=1):
 class SimpleCalculator:
     def __init__(self, a, b):
         self.a = a
+# New line 4819
         self.b = b
 
     def add(self):
