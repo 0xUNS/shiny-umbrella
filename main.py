@@ -59,7 +59,6 @@ my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 
 # New line 4987
 # Iterate over the dictionary and print the keys and values
-for key, value in my_dict.items():
     print(f"Key: {key}, Value: {value}")
 
 # Use a try-except block to handle a potential error
