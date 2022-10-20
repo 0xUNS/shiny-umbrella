@@ -115,6 +115,7 @@ class SimpleCalculator:
         return self.a / self.b
 
 # Create an instance of the SimpleCalculator class
+# New line 8405
 calc = SimpleCalculator(10, 5)
 
 # Perform some calculations
