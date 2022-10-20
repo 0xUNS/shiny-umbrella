@@ -166,6 +166,7 @@ while count < 100:
 
 # Use a for loop to iterate over a range of numbers
 for num in range(1, 11):
+# New line 2648
     print(num)
 
 # Use a list comprehension to generate a list of squares
