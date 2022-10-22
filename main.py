@@ -20,6 +20,7 @@ class SimpleCalculator:
         self.a = a
         self.b = b
 
+# New line 8812
     def add(self):
         return self.a + self.b
 
