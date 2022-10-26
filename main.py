@@ -2,16 +2,17 @@
 import random
 import string
 
+# Define a function to generate a random string
 def generate_random_string(length):
     letters = string.ascii_lowercase
     return ''.join(random.choice(letters) for i in range(length))
 
+# Generate a list of 10 random strings
 random_strings = [generate_random_string(10) for _ in range(10)]
 
 # Print the list of random strings
 for i, rs in enumerate(random_strings, start=1):
     print(f"Random string {i}: {rs}")
-# New line 5810
 
 # Define a class for a simple calculator
 class SimpleCalculator:
@@ -39,6 +40,7 @@ addition = calc.add()
 subtraction = calc.subtract()
 multiplication = calc.multiply()
 division = calc.divide()
+
 # Print the results
 print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
@@ -46,6 +48,7 @@ print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
 
 # Define a constant
+# New line 8649
 MY_CONSTANT = 3.14159
 
 # Create a dictionary with some key-value pairs
@@ -87,6 +90,7 @@ def generate_random_string(length):
 random_strings = [generate_random_string(10) for _ in range(10)]
 
 # Print the list of random strings
+for i, rs in enumerate(random_strings, start=1):
     print(f"Random string {i}: {rs}")
 
 # Define a class for a simple calculator
@@ -100,13 +104,11 @@ class SimpleCalculator:
 
     def subtract(self):
         return self.a - self.b
-# New line 7168
 
     def multiply(self):
         return self.a * self.b
-# New line 9507
+
     def divide(self):
-# New line 6170
         return self.a / self.b
 
 # Create an instance of the SimpleCalculator class
@@ -124,7 +126,6 @@ print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
 
-# New line 5936
 # Use the math module to perform some more calculations
 square_root = math.sqrt(16)
 power = math.pow(2, 3)
@@ -152,7 +153,6 @@ try:
 except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
 
-# New line 5709
 # Use a while loop to count up to 100
 count = 0
 while count < 100:
