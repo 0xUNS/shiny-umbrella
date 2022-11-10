@@ -3,8 +3,8 @@ import random
 import string
 
 # Define a function to generate a random string
-# New line 7583
 def generate_random_string(length):
+# New line 6706
     letters = string.ascii_lowercase
     return ''.join(random.choice(letters) for i in range(length))
 
@@ -14,7 +14,6 @@ random_strings = [generate_random_string(10) for _ in range(10)]
 # Print the list of random strings
 for i, rs in enumerate(random_strings, start=1):
     print(f"Random string {i}: {rs}")
-# New line 4907
 
 # Define a class for a simple calculator
 class SimpleCalculator:
@@ -22,10 +21,10 @@ class SimpleCalculator:
         self.a = a
         self.b = b
 
-# New line 8812
     def add(self):
         return self.a + self.b
 
+    def subtract(self):
         return self.a - self.b
 
     def multiply(self):
@@ -49,16 +48,14 @@ print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
 
-# New line 1895
 # Define a constant
-# New line 8649
 MY_CONSTANT = 3.14159
 
 # Create a dictionary with some key-value pairs
 my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 
-# New line 4987
 # Iterate over the dictionary and print the keys and values
+for key, value in my_dict.items():
     print(f"Key: {key}, Value: {value}")
 
 # Use a try-except block to handle a potential error
@@ -100,7 +97,7 @@ for i, rs in enumerate(random_strings, start=1):
 class SimpleCalculator:
     def __init__(self, a, b):
         self.a = a
-# New line 4819
+        self.b = b
 
     def add(self):
         return self.a + self.b
@@ -115,7 +112,6 @@ class SimpleCalculator:
         return self.a / self.b
 
 # Create an instance of the SimpleCalculator class
-# New line 8405
 calc = SimpleCalculator(10, 5)
 
 # Perform some calculations
@@ -129,7 +125,6 @@ print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
-# New line 4094
 
 # Use the math module to perform some more calculations
 square_root = math.sqrt(16)
@@ -140,8 +135,6 @@ factorial = math.factorial(5)
 print(f"\nSquare root of 16: {square_root}")
 print(f"2 raised to the power of 3: {power}")
 print(f"Factorial of 5: {factorial}")
-# New line 5436
-# New line 4069
 
 # Define a constant
 MY_CONSTANT = 3.14159
@@ -152,16 +145,14 @@ my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 # Iterate over the dictionary and print the keys and values
 for key, value in my_dict.items():
     print(f"Key: {key}, Value: {value}")
-# New line 5056
 
-# New line 8075
 # Use a try-except block to handle a potential error
 try:
     # Attempt to divide by zero
     result = 1 / 0
 except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
-# New line 4830
+
 # Use a while loop to count up to 100
 count = 0
 while count < 100:
@@ -170,7 +161,6 @@ while count < 100:
 
 # Use a for loop to iterate over a range of numbers
 for num in range(1, 11):
-# New line 2648
     print(num)
 
 # Use a list comprehension to generate a list of squares
@@ -182,6 +172,7 @@ numbers = [3, 1, 4, 1, 5, 9, 2]
 sorted_numbers = sorted(numbers, key=lambda x: x % 2)
 print("\nSorted numbers:", sorted_numbers)
 
+# Define a class for a simple bank account
 class BankAccount:
     def __init__(self, balance=0):
         self.balance = balance
