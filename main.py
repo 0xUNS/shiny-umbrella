@@ -16,7 +16,6 @@ for i, rs in enumerate(random_strings, start=1):
     print(f"Random string {i}: {rs}")
 
 # Define a class for a simple calculator
-class SimpleCalculator:
     def __init__(self, a, b):
         self.a = a
         self.b = b
