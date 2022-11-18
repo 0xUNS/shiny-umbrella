@@ -59,7 +59,6 @@ for key, value in my_dict.items():
     print(f"Key: {key}, Value: {value}")
 
 # Use a try-except block to handle a potential error
-try:
     # Attempt to divide by zero
     result = 1 / 0
 except ZeroDivisionError:
