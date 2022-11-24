@@ -186,7 +186,6 @@ class BankAccount:
         self.balance -= amount
         return self.balance
 
-# Create an instance of the BankAccount class
 account = BankAccount(1000)
 
 # Make a deposit
