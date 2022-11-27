@@ -122,6 +122,7 @@ print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
 
 # Use the math module to perform some more calculations
+# New line 3689
 square_root = math.sqrt(16)
 power = math.pow(2, 3)
 factorial = math.factorial(5)
