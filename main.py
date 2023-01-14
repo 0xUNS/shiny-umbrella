@@ -135,7 +135,6 @@ print(f"\nSquare root of 16: {square_root}")
 print(f"2 raised to the power of 3: {power}")
 print(f"Factorial of 5: {factorial}")
 
-# Define a constant
 MY_CONSTANT = 3.14159
 
 # Create a dictionary with some key-value pairs
