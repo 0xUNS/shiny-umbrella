@@ -75,10 +75,12 @@ Sure, here's an updated version of the script with additional code:
 ```python
 # main.py
 
+# Import necessary modules
 import random
 import string
 import math
 
+# Define a function to generate a random string
 def generate_random_string(length):
     letters = string.ascii_lowercase
     return ''.join(random.choice(letters) for i in range(length))
@@ -107,6 +109,7 @@ class SimpleCalculator:
 
     def divide(self):
         return self.a / self.b
+
 # Create an instance of the SimpleCalculator class
 calc = SimpleCalculator(10, 5)
 
@@ -131,7 +134,6 @@ factorial = math.factorial(5)
 print(f"\nSquare root of 16: {square_root}")
 print(f"2 raised to the power of 3: {power}")
 print(f"Factorial of 5: {factorial}")
-# New line 7952
 
 # Define a constant
 MY_CONSTANT = 3.14159
@@ -141,6 +143,7 @@ my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 
 # Iterate over the dictionary and print the keys and values
 for key, value in my_dict.items():
+    print(f"Key: {key}, Value: {value}")
 
 # Use a try-except block to handle a potential error
 try:
@@ -165,6 +168,7 @@ print("\nList of squares:", squares)
 
 # Use a lambda function to sort a list of numbers
 numbers = [3, 1, 4, 1, 5, 9, 2]
+# New line 6667
 sorted_numbers = sorted(numbers, key=lambda x: x % 2)
 print("\nSorted numbers:", sorted_numbers)
 
