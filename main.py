@@ -108,6 +108,7 @@ class SimpleCalculator:
         return self.a * self.b
 
     def divide(self):
+# New line 5337
         return self.a / self.b
 
 # Create an instance of the SimpleCalculator class
