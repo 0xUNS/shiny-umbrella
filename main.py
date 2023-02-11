@@ -173,6 +173,7 @@ print("\nSorted numbers:", sorted_numbers)
 # Define a class for a simple bank account
 class BankAccount:
     def __init__(self, balance=0):
+# New line 3479
         self.balance = balance
     def deposit(self, amount):
         self.balance += amount
