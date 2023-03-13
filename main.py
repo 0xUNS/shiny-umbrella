@@ -159,7 +159,6 @@ while count < 100:
     print(count)
     count += 1
 
-# Use a for loop to iterate over a range of numbers
 for num in range(1, 11):
     print(num)
 
