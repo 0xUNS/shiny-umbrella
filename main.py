@@ -178,7 +178,6 @@ print("\nSorted numbers:", sorted_numbers)
 
     def withdraw(self, amount):
         if amount > self.balance:
-            return "Insufficient funds"
         self.balance -= amount
         return self.balance
 
