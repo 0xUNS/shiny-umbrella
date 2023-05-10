@@ -100,6 +100,7 @@ class SimpleCalculator:
     def add(self):
         return self.a + self.b
 
+# New line 1083
     def subtract(self):
         return self.a - self.b
 
