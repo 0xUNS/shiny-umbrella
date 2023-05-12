@@ -33,7 +33,6 @@ class SimpleCalculator:
 
 # New line 2867
 # Create an instance of the SimpleCalculator class
-calc = SimpleCalculator(10, 5)
 
 # Perform some calculations
 addition = calc.add()
