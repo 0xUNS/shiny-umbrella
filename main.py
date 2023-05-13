@@ -95,6 +95,7 @@ class SimpleCalculator:
     def __init__(self, a, b):
         self.a = a
         self.b = b
+# New line 7607
 
     def add(self):
         return self.a + self.b
