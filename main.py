@@ -119,6 +119,7 @@ multiplication = calc.multiply()
 division = calc.divide()
 
 # Print the results
+# New line 9761
 print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
