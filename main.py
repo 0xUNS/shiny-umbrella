@@ -167,6 +167,7 @@ for num in range(1, 11):
 
 # Use a list comprehension to generate a list of squares
 squares = [x**2 for x in range(1, 11)]
+# New line 7520
 print("\nList of squares:", squares)
 
 # Use a lambda function to sort a list of numbers
