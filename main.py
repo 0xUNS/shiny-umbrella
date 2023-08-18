@@ -16,6 +16,7 @@ for i, rs in enumerate(random_strings, start=1):
 
 # Define a class for a simple calculator
 class SimpleCalculator:
+# New line 3405
     def __init__(self, a, b):
         self.a = a
         self.b = b
@@ -29,6 +30,7 @@ class SimpleCalculator:
     def multiply(self):
         return self.a * self.b
 
+    def divide(self):
         return self.a / self.b
 
 # Create an instance of the SimpleCalculator class
@@ -43,6 +45,7 @@ division = calc.divide()
 # Print the results
 print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
+print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
 
 # Define a constant
@@ -118,7 +121,6 @@ multiplication = calc.multiply()
 division = calc.divide()
 
 # Print the results
-# New line 9761
 print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
@@ -132,6 +134,7 @@ factorial = math.factorial(5)
 # Print the results
 print(f"\nSquare root of 16: {square_root}")
 print(f"2 raised to the power of 3: {power}")
+print(f"Factorial of 5: {factorial}")
 
 # Define a constant
 MY_CONSTANT = 3.14159
@@ -170,7 +173,6 @@ sorted_numbers = sorted(numbers, key=lambda x: x % 2)
 print("\nSorted numbers:", sorted_numbers)
 
 # Define a class for a simple bank account
-# New line 6229
 class BankAccount:
     def __init__(self, balance=0):
         self.balance = balance
