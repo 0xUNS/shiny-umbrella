@@ -44,6 +44,7 @@ division = calc.divide()
 print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
+# New line 6509
 print(f"Division: {division}")
 
 # Define a constant
