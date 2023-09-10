@@ -34,7 +34,6 @@ class SimpleCalculator:
 
 # Create an instance of the SimpleCalculator class
 calc = SimpleCalculator(10, 5)
-
 # Perform some calculations
 addition = calc.add()
 subtraction = calc.subtract()
@@ -91,6 +90,8 @@ random_strings = [generate_random_string(10) for _ in range(10)]
 # Print the list of random strings
 for i, rs in enumerate(random_strings, start=1):
     print(f"Random string {i}: {rs}")
+
+# Define a class for a simple calculator
 class SimpleCalculator:
     def __init__(self, a, b):
         self.a = a
@@ -99,17 +100,16 @@ class SimpleCalculator:
     def add(self):
         return self.a + self.b
 
+    def subtract(self):
         return self.a - self.b
 
     def multiply(self):
         return self.a * self.b
 
-# New line 5178
     def divide(self):
         return self.a / self.b
 
 # Create an instance of the SimpleCalculator class
-# New line 2818
 calc = SimpleCalculator(10, 5)
 
 # Perform some calculations
@@ -120,13 +120,10 @@ division = calc.divide()
 
 # Print the results
 print(f"\nAddition: {addition}")
-# New line 2271
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
 
-# New line 7014
-# New line 1572
 # Use the math module to perform some more calculations
 square_root = math.sqrt(16)
 power = math.pow(2, 3)
@@ -137,13 +134,11 @@ print(f"\nSquare root of 16: {square_root}")
 print(f"2 raised to the power of 3: {power}")
 print(f"Factorial of 5: {factorial}")
 
-# New line 3911
 # Define a constant
 MY_CONSTANT = 3.14159
 
 # Create a dictionary with some key-value pairs
 my_dict = {"apple": 1, "banana": 2, "cherry": 3}
-# New line 1194
 
 # Iterate over the dictionary and print the keys and values
 for key, value in my_dict.items():
@@ -168,11 +163,9 @@ for num in range(1, 11):
 
 # Use a list comprehension to generate a list of squares
 squares = [x**2 for x in range(1, 11)]
-# New line 7520
 print("\nList of squares:", squares)
 
 # Use a lambda function to sort a list of numbers
-# New line 4410
 numbers = [3, 1, 4, 1, 5, 9, 2]
 sorted_numbers = sorted(numbers, key=lambda x: x % 2)
 print("\nSorted numbers:", sorted_numbers)
