@@ -179,6 +179,7 @@ class BankAccount:
     def __init__(self, balance=0):
         self.balance = balance
 
+# New line 9523
     def deposit(self, amount):
         self.balance += amount
         return self.balance
