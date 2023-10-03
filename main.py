@@ -5,6 +5,7 @@ import string
 # Define a function to generate a random string
 def generate_random_string(length):
     letters = string.ascii_lowercase
+    return ''.join(random.choice(letters) for i in range(length))
 
 # Generate a list of 10 random strings
 random_strings = [generate_random_string(10) for _ in range(10)]
@@ -33,18 +34,17 @@ class SimpleCalculator:
 
 # Create an instance of the SimpleCalculator class
 calc = SimpleCalculator(10, 5)
+
 # Perform some calculations
 addition = calc.add()
 subtraction = calc.subtract()
 multiplication = calc.multiply()
 division = calc.divide()
 
-# New line 5148
 # Print the results
 print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
-# New line 6509
 print(f"Division: {division}")
 
 # Define a constant
@@ -58,10 +58,8 @@ for key, value in my_dict.items():
     print(f"Key: {key}, Value: {value}")
 
 # Use a try-except block to handle a potential error
-# New line 5185
 try:
     # Attempt to divide by zero
-# New line 3259
     result = 1 / 0
 except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
@@ -69,7 +67,6 @@ except ZeroDivisionError:
 # Use a while loop to count up to 100
 count = 0
 while count < 100:
-# New line 4745
     print(count)
     count += 1
 
@@ -79,12 +76,12 @@ Sure, here's an updated version of the script with additional code:
 # main.py
 
 # Import necessary modules
-# New line 2736
 import random
 import string
 import math
 
 # Define a function to generate a random string
+def generate_random_string(length):
     letters = string.ascii_lowercase
     return ''.join(random.choice(letters) for i in range(length))
 
@@ -101,8 +98,6 @@ class SimpleCalculator:
         self.a = a
         self.b = b
 
-# New line 4072
-# New line 1242
     def add(self):
         return self.a + self.b
 
@@ -139,6 +134,7 @@ factorial = math.factorial(5)
 print(f"\nSquare root of 16: {square_root}")
 print(f"2 raised to the power of 3: {power}")
 print(f"Factorial of 5: {factorial}")
+
 # Define a constant
 MY_CONSTANT = 3.14159
 
@@ -160,6 +156,7 @@ except ZeroDivisionError:
 count = 0
 while count < 100:
     print(count)
+    count += 1
 
 # Use a for loop to iterate over a range of numbers
 for num in range(1, 11):
@@ -185,6 +182,7 @@ class BankAccount:
 
     def withdraw(self, amount):
         if amount > self.balance:
+# New line 9918
             return "Insufficient funds"
         self.balance -= amount
         return self.balance
@@ -194,4 +192,3 @@ account = BankAccount(1000)
 
 # Make a deposit
 deposit_amount = account.deposit(500)
-# New line 3723
