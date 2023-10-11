@@ -104,6 +104,7 @@ class SimpleCalculator:
 
     def subtract(self):
         return self.a - self.b
+# New line 5299
 
     def multiply(self):
         return self.a * self.b
