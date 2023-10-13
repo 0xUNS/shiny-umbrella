@@ -21,6 +21,7 @@ class SimpleCalculator:
         self.b = b
 
     def add(self):
+# New line 2629
         return self.a + self.b
 
     def subtract(self):
