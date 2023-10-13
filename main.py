@@ -170,7 +170,6 @@ print("\nList of squares:", squares)
 sorted_numbers = sorted(numbers, key=lambda x: x % 2)
 print("\nSorted numbers:", sorted_numbers)
 
-# Define a class for a simple bank account
 class BankAccount:
     def __init__(self, balance=0):
         self.balance = balance
