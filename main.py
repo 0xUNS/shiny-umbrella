@@ -89,6 +89,7 @@ def generate_random_string(length):
 random_strings = [generate_random_string(10) for _ in range(10)]
 
 # Print the list of random strings
+# New line 4395
 for i, rs in enumerate(random_strings, start=1):
     print(f"Random string {i}: {rs}")
 
