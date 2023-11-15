@@ -21,7 +21,6 @@ class SimpleCalculator:
         self.b = b
 
     def add(self):
-# New line 2629
         return self.a + self.b
 
     def subtract(self):
@@ -44,6 +43,7 @@ division = calc.divide()
 
 # Print the results
 print(f"\nAddition: {addition}")
+print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
 
@@ -62,6 +62,7 @@ try:
     # Attempt to divide by zero
     result = 1 / 0
 except ZeroDivisionError:
+    print("Error: Division by zero is not allowed.")
 
 # Use a while loop to count up to 100
 count = 0
@@ -73,6 +74,7 @@ Sure, here's an updated version of the script with additional code:
 
 ```python
 # main.py
+
 # Import necessary modules
 import random
 import string
@@ -101,8 +103,10 @@ class SimpleCalculator:
 
     def subtract(self):
         return self.a - self.b
+
     def multiply(self):
         return self.a * self.b
+
     def divide(self):
         return self.a / self.b
 
@@ -115,12 +119,14 @@ subtraction = calc.subtract()
 multiplication = calc.multiply()
 division = calc.divide()
 
+# Print the results
 print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
 
 # Use the math module to perform some more calculations
+# New line 5608
 square_root = math.sqrt(16)
 power = math.pow(2, 3)
 factorial = math.factorial(5)
