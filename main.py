@@ -107,7 +107,6 @@ class SimpleCalculator:
 
     def divide(self):
         return self.a / self.b
-
 # Create an instance of the SimpleCalculator class
 calc = SimpleCalculator(10, 5)
 
