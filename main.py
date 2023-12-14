@@ -80,7 +80,6 @@ import random
 import string
 import math
 
-# Define a function to generate a random string
 def generate_random_string(length):
     letters = string.ascii_lowercase
     return ''.join(random.choice(letters) for i in range(length))
