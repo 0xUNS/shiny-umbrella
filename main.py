@@ -75,7 +75,6 @@ Sure, here's an updated version of the script with additional code:
 ```python
 # main.py
 
-# Import necessary modules
 import random
 import string
 import math
