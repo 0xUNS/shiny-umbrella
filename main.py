@@ -31,7 +31,6 @@ class SimpleCalculator:
 
     def divide(self):
         return self.a / self.b
-# New line 2443
 
 # Create an instance of the SimpleCalculator class
 calc = SimpleCalculator(10, 5)
@@ -49,23 +48,19 @@ print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
 
 # Define a constant
-# New line 9446
 MY_CONSTANT = 3.14159
 
 # Create a dictionary with some key-value pairs
 my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 
-# New line 2268
 # Iterate over the dictionary and print the keys and values
 for key, value in my_dict.items():
-# New line 7011
     print(f"Key: {key}, Value: {value}")
 
 # Use a try-except block to handle a potential error
 try:
     # Attempt to divide by zero
     result = 1 / 0
-except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
 
 # Use a while loop to count up to 100
@@ -93,12 +88,10 @@ def generate_random_string(length):
 random_strings = [generate_random_string(10) for _ in range(10)]
 
 # Print the list of random strings
-# New line 4395
 for i, rs in enumerate(random_strings, start=1):
     print(f"Random string {i}: {rs}")
 
 # Define a class for a simple calculator
-# New line 7253
 class SimpleCalculator:
     def __init__(self, a, b):
         self.a = a
@@ -109,7 +102,6 @@ class SimpleCalculator:
 
     def subtract(self):
         return self.a - self.b
-# New line 5299
 
     def multiply(self):
         return self.a * self.b
@@ -174,21 +166,21 @@ squares = [x**2 for x in range(1, 11)]
 print("\nList of squares:", squares)
 
 # Use a lambda function to sort a list of numbers
+numbers = [3, 1, 4, 1, 5, 9, 2]
 sorted_numbers = sorted(numbers, key=lambda x: x % 2)
 print("\nSorted numbers:", sorted_numbers)
 
+# Define a class for a simple bank account
 class BankAccount:
     def __init__(self, balance=0):
         self.balance = balance
 
-# New line 9523
     def deposit(self, amount):
         self.balance += amount
         return self.balance
 
     def withdraw(self, amount):
         if amount > self.balance:
-# New line 9918
             return "Insufficient funds"
         self.balance -= amount
         return self.balance
