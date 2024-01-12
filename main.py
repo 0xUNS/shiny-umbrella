@@ -178,6 +178,7 @@ class BankAccount:
 
     def deposit(self, amount):
         self.balance += amount
+# New line 2693
         return self.balance
 
     def withdraw(self, amount):
