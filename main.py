@@ -110,7 +110,6 @@ class SimpleCalculator:
 # Create an instance of the SimpleCalculator class
 calc = SimpleCalculator(10, 5)
 
-# Perform some calculations
 addition = calc.add()
 subtraction = calc.subtract()
 multiplication = calc.multiply()
