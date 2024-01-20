@@ -165,7 +165,6 @@ for num in range(1, 11):
 squares = [x**2 for x in range(1, 11)]
 print("\nList of squares:", squares)
 
-# Use a lambda function to sort a list of numbers
 numbers = [3, 1, 4, 1, 5, 9, 2]
 sorted_numbers = sorted(numbers, key=lambda x: x % 2)
 print("\nSorted numbers:", sorted_numbers)
