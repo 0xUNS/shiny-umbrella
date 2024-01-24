@@ -1,7 +1,6 @@
 # Import necessary modules
 import random
 import string
-# New line 4895
 
 # Define a function to generate a random string
 def generate_random_string(length):
@@ -18,7 +17,6 @@ for i, rs in enumerate(random_strings, start=1):
 # Define a class for a simple calculator
 class SimpleCalculator:
     def __init__(self, a, b):
-# New line 1115
         self.a = a
         self.b = b
 
@@ -43,7 +41,6 @@ subtraction = calc.subtract()
 multiplication = calc.multiply()
 division = calc.divide()
 
-# New line 3286
 # Print the results
 print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
@@ -74,7 +71,6 @@ while count < 100:
     count += 1
 
 Sure, here's an updated version of the script with additional code:
-# New line 1728
 
 ```python
 # main.py
@@ -134,18 +130,15 @@ square_root = math.sqrt(16)
 power = math.pow(2, 3)
 factorial = math.factorial(5)
 
-# Print the results
 print(f"\nSquare root of 16: {square_root}")
 print(f"2 raised to the power of 3: {power}")
 print(f"Factorial of 5: {factorial}")
 
 # Define a constant
-# New line 1105
 MY_CONSTANT = 3.14159
 
 # Create a dictionary with some key-value pairs
 my_dict = {"apple": 1, "banana": 2, "cherry": 3}
-# New line 3375
 
 # Iterate over the dictionary and print the keys and values
 for key, value in my_dict.items():
