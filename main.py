@@ -117,7 +117,6 @@ calc = SimpleCalculator(10, 5)
 addition = calc.add()
 subtraction = calc.subtract()
 multiplication = calc.multiply()
-division = calc.divide()
 
 # Print the results
 print(f"\nAddition: {addition}")
