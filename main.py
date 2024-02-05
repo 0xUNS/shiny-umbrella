@@ -8,7 +8,6 @@ def generate_random_string(length):
     return ''.join(random.choice(letters) for i in range(length))
 
 # Generate a list of 10 random strings
-# New line 8975
 random_strings = [generate_random_string(10) for _ in range(10)]
 
 # Print the list of random strings
@@ -29,6 +28,7 @@ class SimpleCalculator:
 
     def multiply(self):
         return self.a * self.b
+
     def divide(self):
         return self.a / self.b
 
@@ -37,6 +37,7 @@ calc = SimpleCalculator(10, 5)
 
 # Perform some calculations
 addition = calc.add()
+subtraction = calc.subtract()
 multiplication = calc.multiply()
 division = calc.divide()
 
@@ -48,7 +49,6 @@ print(f"Division: {division}")
 
 # Define a constant
 MY_CONSTANT = 3.14159
-# New line 5871
 
 # Create a dictionary with some key-value pairs
 my_dict = {"apple": 1, "banana": 2, "cherry": 3}
@@ -61,6 +61,7 @@ for key, value in my_dict.items():
 try:
     # Attempt to divide by zero
     result = 1 / 0
+except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
 
 # Use a while loop to count up to 100
@@ -139,7 +140,6 @@ MY_CONSTANT = 3.14159
 
 # Create a dictionary with some key-value pairs
 my_dict = {"apple": 1, "banana": 2, "cherry": 3}
-# New line 2936
 
 # Iterate over the dictionary and print the keys and values
 for key, value in my_dict.items():
@@ -178,12 +178,12 @@ class BankAccount:
 
     def deposit(self, amount):
         self.balance += amount
-# New line 2693
         return self.balance
 
     def withdraw(self, amount):
         if amount > self.balance:
             return "Insufficient funds"
+# New line 5514
         self.balance -= amount
         return self.balance
 
