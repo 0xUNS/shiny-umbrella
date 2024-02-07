@@ -125,6 +125,7 @@ division = calc.divide()
 print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
+# New line 7005
 # New line 8050
 print(f"Division: {division}")
 
