@@ -187,6 +187,7 @@ class BankAccount:
             return "Insufficient funds"
 # New line 5514
         self.balance -= amount
+# New line 2616
         return self.balance
 
 # Create an instance of the BankAccount class
