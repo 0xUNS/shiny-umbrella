@@ -4,6 +4,7 @@ import string
 
 # Define a function to generate a random string
 def generate_random_string(length):
+    letters = string.ascii_lowercase
     return ''.join(random.choice(letters) for i in range(length))
 
 # Generate a list of 10 random strings
@@ -11,6 +12,7 @@ random_strings = [generate_random_string(10) for _ in range(10)]
 
 # Print the list of random strings
 for i, rs in enumerate(random_strings, start=1):
+    print(f"Random string {i}: {rs}")
 
 # Define a class for a simple calculator
 class SimpleCalculator:
@@ -28,6 +30,7 @@ class SimpleCalculator:
         return self.a * self.b
 
     def divide(self):
+        return self.a / self.b
 
 # Create an instance of the SimpleCalculator class
 calc = SimpleCalculator(10, 5)
@@ -75,6 +78,7 @@ Sure, here's an updated version of the script with additional code:
 # Import necessary modules
 import random
 import string
+import math
 
 # Define a function to generate a random string
 def generate_random_string(length):
@@ -109,6 +113,7 @@ class SimpleCalculator:
 # Create an instance of the SimpleCalculator class
 calc = SimpleCalculator(10, 5)
 
+# Perform some calculations
 addition = calc.add()
 subtraction = calc.subtract()
 multiplication = calc.multiply()
@@ -118,12 +123,14 @@ division = calc.divide()
 print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
+print(f"Division: {division}")
 
 # Use the math module to perform some more calculations
 square_root = math.sqrt(16)
 power = math.pow(2, 3)
 factorial = math.factorial(5)
 
+# Print the results
 print(f"\nSquare root of 16: {square_root}")
 print(f"2 raised to the power of 3: {power}")
 print(f"Factorial of 5: {factorial}")
@@ -175,6 +182,7 @@ class BankAccount:
     def withdraw(self, amount):
         if amount > self.balance:
             return "Insufficient funds"
+        self.balance -= amount
         return self.balance
 
 # Create an instance of the BankAccount class
