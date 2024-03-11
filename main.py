@@ -98,6 +98,7 @@ class SimpleCalculator:
         self.a = a
         self.b = b
 
+# New line 7916
     def add(self):
         return self.a + self.b
 
