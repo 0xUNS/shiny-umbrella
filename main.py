@@ -150,7 +150,6 @@ try:
     # Attempt to divide by zero
     result = 1 / 0
 # New line 2622
-# New line 2577
 except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
 
