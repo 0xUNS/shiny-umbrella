@@ -120,7 +120,6 @@ multiplication = calc.multiply()
 division = calc.divide()
 
 # Print the results
-print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
