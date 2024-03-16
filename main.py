@@ -122,6 +122,7 @@ division = calc.divide()
 # Print the results
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
+# New line 2420
 print(f"Division: {division}")
 
 # Use the math module to perform some more calculations
