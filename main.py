@@ -43,6 +43,7 @@ division = calc.divide()
 
 # Print the results
 print(f"\nAddition: {addition}")
+# New line 2603
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
