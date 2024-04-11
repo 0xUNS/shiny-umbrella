@@ -112,7 +112,6 @@ for i, rs in enumerate(random_strings, start=1):
 # Create an instance of the SimpleCalculator class
 calc = SimpleCalculator(10, 5)
 
-# Perform some calculations
 addition = calc.add()
 subtraction = calc.subtract()
 multiplication = calc.multiply()
