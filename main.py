@@ -7,6 +7,8 @@ def generate_random_string(length):
     letters = string.ascii_lowercase
     return ''.join(random.choice(letters) for i in range(length))
 
+# Generate a list of 10 random strings
+random_strings = [generate_random_string(10) for _ in range(10)]
 
 # Print the list of random strings
 for i, rs in enumerate(random_strings, start=1):
@@ -21,7 +23,6 @@ class SimpleCalculator:
     def add(self):
         return self.a + self.b
 
-# New line 5996
     def subtract(self):
         return self.a - self.b
 
@@ -42,12 +43,10 @@ division = calc.divide()
 
 # Print the results
 print(f"\nAddition: {addition}")
-# New line 2603
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
 
-# New line 6776
 # Define a constant
 MY_CONSTANT = 3.14159
 
@@ -57,10 +56,8 @@ my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 # Iterate over the dictionary and print the keys and values
 for key, value in my_dict.items():
     print(f"Key: {key}, Value: {value}")
-# New line 8640
 
 # Use a try-except block to handle a potential error
-# New line 5462
 try:
     # Attempt to divide by zero
     result = 1 / 0
@@ -146,6 +143,7 @@ my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 
 # Iterate over the dictionary and print the keys and values
 for key, value in my_dict.items():
+    print(f"Key: {key}, Value: {value}")
 
 # Use a try-except block to handle a potential error
 try:
@@ -164,7 +162,6 @@ while count < 100:
 for num in range(1, 11):
     print(num)
 
-# New line 3435
 # Use a list comprehension to generate a list of squares
 squares = [x**2 for x in range(1, 11)]
 print("\nList of squares:", squares)
@@ -172,7 +169,6 @@ print("\nList of squares:", squares)
 # Use a lambda function to sort a list of numbers
 numbers = [3, 1, 4, 1, 5, 9, 2]
 sorted_numbers = sorted(numbers, key=lambda x: x % 2)
-print("\nSorted numbers:", sorted_numbers)
 
 # Define a class for a simple bank account
 class BankAccount:
