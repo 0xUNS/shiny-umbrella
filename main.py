@@ -6,7 +6,6 @@ import string
 def generate_random_string(length):
     letters = string.ascii_lowercase
     return ''.join(random.choice(letters) for i in range(length))
-
 # Generate a list of 10 random strings
 random_strings = [generate_random_string(10) for _ in range(10)]
 
