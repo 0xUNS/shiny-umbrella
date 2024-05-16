@@ -80,7 +80,6 @@ Sure, here's an updated version of the script with additional code:
 # Import necessary modules
 import random
 import string
-import math
 
 # Define a function to generate a random string
 def generate_random_string(length):
