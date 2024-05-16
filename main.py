@@ -63,6 +63,7 @@ except ZeroDivisionError:
 
 # Use a while loop to count up to 100
 count = 0
+# New line 3719
 while count < 100:
     print(count)
     count += 1
