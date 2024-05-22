@@ -127,7 +127,6 @@ print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
 
-# Use the math module to perform some more calculations
 square_root = math.sqrt(16)
 power = math.pow(2, 3)
 factorial = math.factorial(5)
