@@ -23,7 +23,6 @@ class SimpleCalculator:
     def add(self):
         return self.a + self.b
 
-    def subtract(self):
         return self.a - self.b
 
     def multiply(self):
