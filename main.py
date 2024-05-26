@@ -34,6 +34,7 @@ class SimpleCalculator:
 # New line 9166
 
 # Create an instance of the SimpleCalculator class
+# New line 4171
 calc = SimpleCalculator(10, 5)
 
 # Perform some calculations
