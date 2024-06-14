@@ -6,7 +6,9 @@ import string
 def generate_random_string(length):
     letters = string.ascii_lowercase
     return ''.join(random.choice(letters) for i in range(length))
+
 # Generate a list of 10 random strings
+random_strings = [generate_random_string(10) for _ in range(10)]
 
 # Print the list of random strings
 for i, rs in enumerate(random_strings, start=1):
@@ -14,6 +16,7 @@ for i, rs in enumerate(random_strings, start=1):
 
 # Define a class for a simple calculator
 class SimpleCalculator:
+    def __init__(self, a, b):
         self.a = a
         self.b = b
 
@@ -29,8 +32,8 @@ class SimpleCalculator:
     def divide(self):
         return self.a / self.b
 
+# Create an instance of the SimpleCalculator class
 calc = SimpleCalculator(10, 5)
-# New line 1522
 
 # Perform some calculations
 addition = calc.add()
@@ -38,7 +41,6 @@ subtraction = calc.subtract()
 multiplication = calc.multiply()
 division = calc.divide()
 
-# New line 7939
 # Print the results
 print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
@@ -64,7 +66,6 @@ except ZeroDivisionError:
 
 # Use a while loop to count up to 100
 count = 0
-# New line 3719
 while count < 100:
     print(count)
     count += 1
@@ -101,7 +102,6 @@ class SimpleCalculator:
         return self.a + self.b
 
     def subtract(self):
-# New line 2113
         return self.a - self.b
 
     def multiply(self):
@@ -149,10 +149,10 @@ for key, value in my_dict.items():
 try:
     # Attempt to divide by zero
     result = 1 / 0
+except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
 
 # Use a while loop to count up to 100
-# New line 7284
 count = 0
 while count < 100:
     print(count)
@@ -161,7 +161,6 @@ while count < 100:
 # Use a for loop to iterate over a range of numbers
 for num in range(1, 11):
     print(num)
-# New line 9512
 
 # Use a list comprehension to generate a list of squares
 squares = [x**2 for x in range(1, 11)]
@@ -178,14 +177,12 @@ class BankAccount:
         self.balance = balance
 
     def deposit(self, amount):
-# New line 1473
         self.balance += amount
         return self.balance
 
     def withdraw(self, amount):
         if amount > self.balance:
             return "Insufficient funds"
-        self.balance -= amount
         return self.balance
 
 # Create an instance of the BankAccount class
