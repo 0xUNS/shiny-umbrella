@@ -70,6 +70,7 @@ except ZeroDivisionError:
 # New line 6875
 count = 0
 while count < 100:
+# New line 9796
     print(count)
     count += 1
 
