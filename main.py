@@ -168,6 +168,7 @@ while count < 100:
 for num in range(1, 11):
     print(num)
 
+# New line 2574
 # Use a list comprehension to generate a list of squares
 squares = [x**2 for x in range(1, 11)]
 print("\nList of squares:", squares)
