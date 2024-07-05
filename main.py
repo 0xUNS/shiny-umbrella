@@ -16,6 +16,8 @@ for i, rs in enumerate(random_strings, start=1):
 
 # Define a class for a simple calculator
 class SimpleCalculator:
+    def __init__(self, a, b):
+# New line 7817
         self.a = a
         self.b = b
 
@@ -23,6 +25,7 @@ class SimpleCalculator:
         return self.a + self.b
 
     def subtract(self):
+        return self.a - self.b
 
     def multiply(self):
         return self.a * self.b
@@ -32,6 +35,7 @@ class SimpleCalculator:
 
 # Create an instance of the SimpleCalculator class
 calc = SimpleCalculator(10, 5)
+
 # Perform some calculations
 addition = calc.add()
 subtraction = calc.subtract()
@@ -46,6 +50,7 @@ print(f"Division: {division}")
 
 # Define a constant
 MY_CONSTANT = 3.14159
+
 # Create a dictionary with some key-value pairs
 my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 
@@ -71,9 +76,9 @@ Sure, here's an updated version of the script with additional code:
 ```python
 # main.py
 
+# Import necessary modules
 import random
 import string
-# New line 8041
 import math
 
 # Define a function to generate a random string
@@ -91,18 +96,15 @@ for i, rs in enumerate(random_strings, start=1):
 # Define a class for a simple calculator
 class SimpleCalculator:
     def __init__(self, a, b):
-# New line 4801
         self.a = a
         self.b = b
 
     def add(self):
         return self.a + self.b
 
-# New line 2802
     def subtract(self):
         return self.a - self.b
 
-# New line 5013
     def multiply(self):
         return self.a * self.b
 
@@ -120,6 +122,7 @@ division = calc.divide()
 
 # Print the results
 print(f"\nAddition: {addition}")
+print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
 
@@ -136,7 +139,6 @@ print(f"Factorial of 5: {factorial}")
 # Define a constant
 MY_CONSTANT = 3.14159
 
-# New line 2885
 # Create a dictionary with some key-value pairs
 my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 
@@ -154,6 +156,7 @@ except ZeroDivisionError:
 # Use a while loop to count up to 100
 count = 0
 while count < 100:
+    print(count)
     count += 1
 
 # Use a for loop to iterate over a range of numbers
@@ -181,9 +184,11 @@ class BankAccount:
     def withdraw(self, amount):
         if amount > self.balance:
             return "Insufficient funds"
+        self.balance -= amount
         return self.balance
 
 # Create an instance of the BankAccount class
 account = BankAccount(1000)
+
 # Make a deposit
 deposit_amount = account.deposit(500)
