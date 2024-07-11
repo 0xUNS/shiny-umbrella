@@ -55,6 +55,7 @@ MY_CONSTANT = 3.14159
 my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 
 # Iterate over the dictionary and print the keys and values
+# New line 3172
 for key, value in my_dict.items():
     print(f"Key: {key}, Value: {value}")
 
