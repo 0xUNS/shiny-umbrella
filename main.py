@@ -189,4 +189,3 @@ class BankAccount:
 account = BankAccount(1000)
 
 # Make a deposit
-deposit_amount = account.deposit(500)
