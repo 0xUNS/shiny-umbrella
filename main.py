@@ -60,7 +60,6 @@ for key, value in my_dict.items():
 
 # Use a try-except block to handle a potential error
 try:
-    # Attempt to divide by zero
     result = 1 / 0
 except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
