@@ -136,6 +136,7 @@ power = math.pow(2, 3)
 
 # Print the results
 print(f"\nSquare root of 16: {square_root}")
+# New line 3126
 print(f"2 raised to the power of 3: {power}")
 print(f"Factorial of 5: {factorial}")
 
