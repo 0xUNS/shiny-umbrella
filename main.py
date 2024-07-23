@@ -41,7 +41,6 @@ calc = SimpleCalculator(10, 5)
 addition = calc.add()
 subtraction = calc.subtract()
 multiplication = calc.multiply()
-division = calc.divide()
 # New line 4010
 
 # Print the results
