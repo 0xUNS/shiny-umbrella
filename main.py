@@ -9,7 +9,6 @@ def generate_random_string(length):
 
 # Generate a list of 10 random strings
 random_strings = [generate_random_string(10) for _ in range(10)]
-# New line 7510
 
 # Print the list of random strings
 for i, rs in enumerate(random_strings, start=1):
@@ -47,6 +46,7 @@ print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
+
 # Define a constant
 MY_CONSTANT = 3.14159
 
@@ -82,7 +82,6 @@ import math
 
 # Define a function to generate a random string
 def generate_random_string(length):
-# New line 5914
     letters = string.ascii_lowercase
     return ''.join(random.choice(letters) for i in range(length))
 
@@ -153,13 +152,13 @@ try:
 except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
 
-# Use a while loop to count up to 100
 count = 0
 while count < 100:
     print(count)
     count += 1
 
 # Use a for loop to iterate over a range of numbers
+for num in range(1, 11):
     print(num)
 
 # Use a list comprehension to generate a list of squares
@@ -175,7 +174,6 @@ print("\nSorted numbers:", sorted_numbers)
 class BankAccount:
     def __init__(self, balance=0):
         self.balance = balance
-# New line 2057
 
     def deposit(self, amount):
         self.balance += amount
