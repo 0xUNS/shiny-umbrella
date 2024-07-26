@@ -181,7 +181,6 @@ class BankAccount:
     def deposit(self, amount):
         self.balance += amount
         return self.balance
-    def withdraw(self, amount):
         if amount > self.balance:
             return "Insufficient funds"
         self.balance -= amount
