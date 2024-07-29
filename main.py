@@ -73,7 +73,6 @@ while count < 100:
     count += 1
 
 Sure, here's an updated version of the script with additional code:
-
 ```python
 # main.py
 
