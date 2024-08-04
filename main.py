@@ -104,7 +104,6 @@ class SimpleCalculator:
         return self.a - self.b
 
     def multiply(self):
-        return self.a * self.b
 
     def divide(self):
 
