@@ -13,7 +13,6 @@ random_strings = [generate_random_string(10) for _ in range(10)]
 # Print the list of random strings
 for i, rs in enumerate(random_strings, start=1):
     print(f"Random string {i}: {rs}")
-# New line 8770
 
 # Define a class for a simple calculator
 class SimpleCalculator:
@@ -44,18 +43,17 @@ division = calc.divide()
 
 # Print the results
 print(f"\nAddition: {addition}")
+print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
 
 # Define a constant
 MY_CONSTANT = 3.14159
-# New line 5230
 
 # Create a dictionary with some key-value pairs
 my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 
 # Iterate over the dictionary and print the keys and values
-# New line 3172
 for key, value in my_dict.items():
     print(f"Key: {key}, Value: {value}")
 
@@ -65,10 +63,10 @@ try:
     result = 1 / 0
 except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
+
 # Use a while loop to count up to 100
 count = 0
 while count < 100:
-# New line 9796
     print(count)
     count += 1
 
@@ -90,6 +88,7 @@ def generate_random_string(length):
 # Generate a list of 10 random strings
 random_strings = [generate_random_string(10) for _ in range(10)]
 
+# Print the list of random strings
 for i, rs in enumerate(random_strings, start=1):
     print(f"Random string {i}: {rs}")
 
@@ -100,7 +99,6 @@ class SimpleCalculator:
         self.b = b
 
     def add(self):
-# New line 8552
         return self.a + self.b
 
     def subtract(self):
@@ -110,9 +108,7 @@ class SimpleCalculator:
         return self.a * self.b
 
     def divide(self):
-        return self.a / self.b
 
-# New line 6322
 # Create an instance of the SimpleCalculator class
 calc = SimpleCalculator(10, 5)
 
@@ -127,15 +123,14 @@ print(f"\nAddition: {addition}")
 print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
-# New line 8203
 
 # Use the math module to perform some more calculations
 square_root = math.sqrt(16)
 power = math.pow(2, 3)
+factorial = math.factorial(5)
 
 # Print the results
 print(f"\nSquare root of 16: {square_root}")
-# New line 3126
 print(f"2 raised to the power of 3: {power}")
 print(f"Factorial of 5: {factorial}")
 
@@ -149,7 +144,6 @@ my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 for key, value in my_dict.items():
     print(f"Key: {key}, Value: {value}")
 
-# New line 4165
 # Use a try-except block to handle a potential error
 try:
     # Attempt to divide by zero
@@ -157,6 +151,7 @@ try:
 except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
 
+# Use a while loop to count up to 100
 count = 0
 while count < 100:
     print(count)
@@ -183,9 +178,10 @@ class BankAccount:
     def deposit(self, amount):
         self.balance += amount
         return self.balance
+
+    def withdraw(self, amount):
         if amount > self.balance:
             return "Insufficient funds"
-# New line 8123
         self.balance -= amount
         return self.balance
 
@@ -193,3 +189,4 @@ class BankAccount:
 account = BankAccount(1000)
 
 # Make a deposit
+deposit_amount = account.deposit(500)
