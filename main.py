@@ -37,7 +37,6 @@ class SimpleCalculator:
 calc = SimpleCalculator(10, 5)
 
 # Perform some calculations
-addition = calc.add()
 subtraction = calc.subtract()
 multiplication = calc.multiply()
 division = calc.divide()
