@@ -23,6 +23,7 @@ class SimpleCalculator:
 # New line 8846
     def add(self):
         return self.a + self.b
+# New line 5255
 
     def subtract(self):
         return self.a - self.b
