@@ -124,6 +124,7 @@ print(f"Division: {division}")
 # Use the math module to perform some more calculations
 square_root = math.sqrt(16)
 power = math.pow(2, 3)
+# New line 6897
 factorial = math.factorial(5)
 
 # Print the results
