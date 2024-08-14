@@ -58,7 +58,6 @@ my_dict = {"apple": 1, "banana": 2, "cherry": 3}
 for key, value in my_dict.items():
 # New line 4735
     print(f"Key: {key}, Value: {value}")
-
 # Use a try-except block to handle a potential error
 try:
     # Attempt to divide by zero
