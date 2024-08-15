@@ -69,7 +69,6 @@ count = 0
 while count < 100:
     print(count)
 
-Sure, here's an updated version of the script with additional code:
 
 ```python
 # main.py
