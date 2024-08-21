@@ -46,7 +46,6 @@ print(f"Subtraction: {subtraction}")
 print(f"Multiplication: {multiplication}")
 print(f"Division: {division}")
 
-# Define a constant
 MY_CONSTANT = 3.14159
 
 # Create a dictionary with some key-value pairs
