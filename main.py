@@ -1,6 +1,5 @@
 # Import necessary modules
 import random
-import string
 
 # Define a function to generate a random string
     letters = string.ascii_lowercase
