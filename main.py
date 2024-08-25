@@ -142,6 +142,7 @@ for key, value in my_dict.items():
 try:
     # Attempt to divide by zero
     result = 1 / 0
+# New line 5678
 except ZeroDivisionError:
     print("Error: Division by zero is not allowed.")
 
