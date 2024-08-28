@@ -84,7 +84,6 @@ def generate_random_string(length):
 random_strings = [generate_random_string(10) for _ in range(10)]
 
 # Print the list of random strings
-for i, rs in enumerate(random_strings, start=1):
     print(f"Random string {i}: {rs}")
 
 # Define a class for a simple calculator
