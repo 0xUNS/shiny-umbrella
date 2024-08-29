@@ -130,7 +130,6 @@ print(f"Division: {division}")
 square_root = math.sqrt(16)
 power = math.pow(2, 3)
 factorial = math.factorial(5)
-
 # Print the results
 print(f"\nSquare root of 16: {square_root}")
 print(f"2 raised to the power of 3: {power}")
