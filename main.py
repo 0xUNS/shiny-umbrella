@@ -150,6 +150,7 @@ try:
     # Attempt to divide by zero
     result = 1 / 0
 except ZeroDivisionError:
+# New line 1828
     print("Error: Division by zero is not allowed.")
 
 # Use a while loop to count up to 100
