@@ -187,7 +187,6 @@ print("\nSorted numbers:", sorted_numbers)
         return self.balance
 
 # Create an instance of the BankAccount class
-account = BankAccount(1000)
 
 # Make a deposit
 deposit_amount = account.deposit(500)
