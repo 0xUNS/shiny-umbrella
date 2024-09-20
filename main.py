@@ -186,6 +186,7 @@ class BankAccount:
 
 # Create an instance of the BankAccount class
 account = BankAccount(1000)
+# New line 1906
 
 # Make a deposit
 deposit_amount = account.deposit(500)
