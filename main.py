@@ -63,7 +63,6 @@ try:
     # Attempt to divide by zero
     result = 1 / 0
 except ZeroDivisionError:
-    print("Error: Division by zero is not allowed.")
 
 # Use a while loop to count up to 100
 count = 0
